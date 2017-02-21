@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Personality Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Personality survey</h2>
+      </div>
+      <form id="personality_survey">
+        <div class="form-group">
+          <p>Check all boxes that apply to you:</p>
+          <input type="checkbox" name="hit" value="1">Feel like a boss.<br>
+          <input type="checkbox" name="hit" value="-1">Ocassionally think about killing yourself.<br>
+          <input type="checkbox" name="hit" value="1">Wake up excited most days.<br>
+          <input type="checkbox" name="hit" value="-1">Hard to get up.<br>
+          <input type="checkbox" name="hit" value="1">Eat healthy<br>
+          <input type="checkbox" name="hit" value="-1">Never think about what you eat.<br>
+          <input type="checkbox" name="hit" value="1">Excerise at least twice a week.<br>
+          <input type="checkbox" name="hit" value="-1">Exercise less than once a week<br>
+          <input type="checkbox" name="hit" value="1">Think about others often<br>
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <form id="luck">
+        <div class="form-group">
+          <p>Check all boxes that apply to you(Only if happened within a week!):</p>
+          <input type="checkbox" name="lucky" value="1">Saw a 4 leave clover.<br>
+          <input type="checkbox" name="lucky" value="-1">Walked under a ladder<br>
+          <input type="checkbox" name="lucky" value="1">Saw a rainbow<br>
+          <input type="checkbox" name="lucky" value="-1">Saw a blackcat (unless own one)<br>
+          <input type="checkbox" name="lucky" value="10">Caught a leprechan!<br>
+          <input type="checkbox" name="lucky" value="0">Ate a jellyfish.<br>
+          <input type="checkbox" name="lucky" value="1">Have a beard.<br>
+          <input type="checkbox" name="lucky" value="-1">Own a mustang.<br>
+          <input type="checkbox" name="lucky" value="1">Think about others often<br>
+        </div>
+       <button type="submit">Submit For Luck!</button>
+      </form>
+      <span id="personality">
+        <p><b>You are mostly:</b></p>
+      </span>
+      <br/>
+      <span id="inputLuck">
+        <p><b>How lucky are you?</b></p>
+      </span>
+
+    </div>
+  </body>
+</html>
